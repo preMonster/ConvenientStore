@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+
+.form-control {
+	display: inline;
+	width: 70%;
+}
+
+.content {
+	width: 100%;
+	min-width: 1300px;
+}
+
+.searchArea {
+	width: 98%;
+	margin-top: 10px;
+	margin-bottom: 10px
+	
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.row label {
+	width: 20%;
+	min-wdith: 80px;
+}
+
+.timeLabelDiv {
+	float: left;
+	height: 34px;
+	margin-right: 4px;
+	width: 20%;
+}
+
+.timeLabelDiv label {
+	margin-top: 7px;
+	min-width: 80px;
+}
+
+.timeChooseDiv {
+	width: 70%;
+	margin-top: 0px;
+}
+
+.input-group-addon {
+	background-color: #fff;
+}
+
+#testProcess {
+	width: 70%;
+	text-align: center;
+}
+
+.buttonGroup {
+	background-color: rgb(232, 243, 249);
+	width: 100%;
+	margin: 10px 0 20px 0;
+	padding: 20px 0 20px 0;
+}
+
+.buttonGroup button:hover {
+	border: none;
+	color: #fff;
+	background-color: rgb(255, 173, 51);
+}
+
+label {
+	font-size: 16px;
+	color: #333;
+}
+
+#testItemDiv {
+	width:70%;
+	display: inline-block;
+	position: relative;
+}
+
+#dropDownList li {
+	padding-left: 12px;
+}
+
+#dropDownList li:hover {
+	background: #f0f0f0;
+	cursor: pointer;
+}
+
+#dropDownList {
+	position: absolute;
+	z-index: 1600;
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid #7f9db9;
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	list-style: outside none none;
+	margin: 0;
+	max-height: 250px;
+	overflow: auto;
+	padding: 0;
+	display: none;
+}
+
+#table thead,.modal-header {
+	background-color: #364760;
+	color: #fff;
+	font-size: blod 14px;
+}
+
+.bs-checkbox {
+	vertical-align: middle !important;
+}

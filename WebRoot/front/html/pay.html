@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>付款</title>
+<link rel="stylesheet" type="text/css" href="/ConvenientStore/assets/bootstrap3.3.7/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/ConvenientStore/front/css/base.css">
+<script src="/ConvenientStore/assets/js/jquery-2.0.3.min.js"></script>
+<script src="/ConvenientStore/assets/bootstrap3.3.7/js/bootstrap.js"></script>
+<style>
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+div.aliPayPageDiv{
+	text-align: center;
+	padding-bottom: 40px;
+	max-width: 1013px;
+	margin: 10px auto;
+}
+div.aliPayPageLogo{
+	margin: 20px;
+}
+span.confirmMoneyText{
+	color: #4D4D4D;
+}
+span.confirmMoney{
+	display: block;
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+button.confirmPay{
+	background-color: #00AAEE;
+	border: 1px solid #00AAEE;
+	text-align: center;
+	line-height: 31px;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	width: 107px;
+	margin-top: 20px;
+}
+</style>
+</head>
+<body>
+	<div class="aliPayPageDiv">
+	<div class="aliPayPageLogo">
+		<img src="img/site/simpleLogo.png" class="pull-left">
+		<div style="clear:both"></div>
+	</div>
+	<div>
+		<span class="confirmMoneyText">扫一扫付款（元）</span>
+		<span class="confirmMoney">
+		￥1,359.20</span>
+	</div>
+	<div>
+		<img src="img/alipay2wei.png" class="aliPayImg">
+	</div>
+	<div>
+		<a href="paySuccess.html"><button class="confirmPay">确认支付</button></a>
+	</div>
+</div>
+</body>
+</html>

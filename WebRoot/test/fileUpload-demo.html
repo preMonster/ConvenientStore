@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/reward/assets/css/bootstrap-4.0.0-beta.min.css" />
+<link rel="stylesheet" href="/reward/assets/css/fileinput-4.4.7.css" />
+<link rel="stylesheet" href="/reward/assets/font-awesome-4.7.0/css/font-awesome-4.7.0.min.css" />
+<link rel="stylesheet" href="/reward/assets/css/theme-4.4.7.css" />
+<script src="/reward/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/reward/assets/js/fileinput-4.4.7.js"></script>
+<!--这两个theme.min.js必须要，不然小图表加载不出来  -->
+<script src="/reward/assets/js/explorer-fa-theme.min.js"></script>
+<script src="/reward/assets/js/fa-theme.min.js"></script>
+<script src="/reward/assets/js/popper.min.js"></script>
+<script src="/reward/assets/js/bootstrap-4.0.0-beta.min.js"></script>
+</head>
+<body>
+	 <form method="post" action="/reward/imageController/upload.do" enctype="multipart/form-data">
+        <label>French Input</label>
+        <div class="file-loading">
+           <!-- 上传多个文件 除了配置multiple="multiple" 还需要在name的名字后面加上[] 后台controller获取名字的时候 只需要file 不需要[]-->
+            <input id="file-fr" name="file[]" type="file" multiple="multiple"><!-- name="file-fr[] -->
+        </div>
+       <!--  <hr style="border: 2px dotted">
+        <label>Spanish Input</label>
+            <div class="file-loading">
+                <input id="file-es" name="file-es[]" type="file" multiple>
+            </div> -->
+        <input type="submit" value="确定">
+     </form>
+     
+     <script>
+	     $('#file-fr').fileinput({
+	         theme: 'fa',
+	         language: 'fr',
+	         uploadUrl: '/reward/imageController/upload.do',
+	         allowedFileExtensions: ['jpg', 'png', 'gif'],
+	         overwriteInitial: false//不覆盖已上传的图片
+	     });
+     </script>
+</body>
+</html>

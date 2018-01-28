@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册</title>
+<link rel="stylesheet" type="text/css" href="/ConvenientStore/assets/bootstrap3.3.7/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/ConvenientStore/front/css/base.css">
+<script src="/ConvenientStore/assets/js/jquery-2.0.3.min.js"></script>
+<script src="/ConvenientStore/assets/bootstrap3.3.7/js/bootstrap.js"></script>
+<style>
+div.registerDiv{
+	margin: 10px 20px;
+	text-align: center;
+}
+table.registerTable{
+	color: #3C3C3C;
+	font-size: 16px;
+	table-layout: fixed;
+}
+table.registerTable td{
+	padding: 10px 30px;
+}
+table.registerTable input{
+	border: 1px solid #DEDEDE;
+	width: 213px;
+	height: 36px;
+	font-size: 14px;
+}
+table.registerTable button{
+	width: 170px;
+	height: 36px;
+	border-radius: 2px;
+	color: white;
+	background-color: #C40000;
+	border-width: 0px;
+}
+td.registerTip{
+	font-weight: bold;
+}
+/* td.registerTableLeftTD{
+	width: 300px;
+	text-align: right;
+} */
+td.registerTableRightTD{
+	width: 300px;
+	text-align: left;
+}
+td.registerButtonTD{
+	text-align: center;
+}
+
+.registerDiv{
+ 	position:absolute;
+ 	left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+	}
+/* .test{
+      width: 200px;
+      height: 200px;
+      background: green;
+      position:absolute;
+      left:0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+     } */
+</style>
+</head>
+<body>
+	<div class="registerDiv panel panel-default">
+	    <table align="center" class="registerTable">
+	        <tbody><tr>
+	            <td class="registerTip registerTableLeftTD">设置会员名</td>
+	            <td></td>
+	        </tr>
+	        <tr>
+	            <td class="registerTableLeftTD">登陆名</td>
+	            <td class="registerTableRightTD"><input placeholder="会员名一旦设置成功，无法修改" name="name" id="name"> </td>
+	        </tr>
+	        <tr>
+	            <td class="registerTip registerTableLeftTD">设置登陆密码</td>
+	            <td class="registerTableRightTD">登陆时验证，保护账号信息</td>
+	        </tr>     
+	        <tr>
+	            <td class="registerTableLeftTD">登陆密码</td>
+	            <td class="registerTableRightTD"><input type="password" placeholder="设置你的登陆密码" name="password" id="password"> </td>
+	        </tr>
+	        <tr>
+	            <td class="registerTableLeftTD">密码确认</td>
+	            <td class="registerTableRightTD"><input type="password" placeholder="请再次输入你的密码" id="repeatpassword"> </td>
+	        </tr>
+	        <tr>
+	            <td class="registerButtonTD" colspan="2">
+	                <a href="#nowhere"><button>提   交</button></a>
+	            </td>
+	        </tr>             
+	    </tbody>
+	   </table>
+	</div>
+	<!-- <div class="test sx-b"></div> -->
+	﻿<style>
+	  span.how2jcopyrightspan1{
+	    font-weight:bold;
+	  }
+	
+	  span.how2jcopyrightspan1 a{
+	    color:blue;
+	  }
+	
+	  span.how2jcopyrightspan1 a:hover{
+	    color:#C40000;
+	  }
+	
+	  span.how2jcopyrightspan2{
+	  	color:red;
+	      
+	  }
+	  div.how2jcopyrightDiv{
+	  	width:500px;
+	    margin:0px auto;
+	    text-align:center;
+	  }
+	</style>
+</body>
+</html>

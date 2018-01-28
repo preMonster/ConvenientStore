@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#fff;
+}
+.main{
+	height:600px;
+	//font-family:"Times New Roman",Georgia,Serif;
+	font-size: 16px;
+	background-color:#fff;
+	margin:0 auto;
+}
+
+.showContract{
+	height:200px;
+	margin:20px 10px;
+}
+.showContract label{
+	display: inline;
+	width: 70%;
+	font-weight:normal;
+	color: #333;
+}
+
+label.control-label {
+	margin-left:10px;
+	margin-right:10px;
+	font-weight: bold;
+	color: #000;
+	width: 20%;
+}
+.showContract .top{
+	height:40px;
+	line-height:40px;
+	border:1px solid #ccc;
+}
+.contract_title{
+	font-size: 18px;
+	display:inline;
+}
+.contract_title img{
+	margin:0 10px;
+}
+.contract-code{
+	float:right;
+}
+.contract-code .state{
+	display:inline;
+	height:40px;
+	width:150px;
+	margin-right:32px;
+}
+.contract-code .contractCode{
+	display:inline;
+	height:40px;
+	width:150px;
+	margin-right:10px;
+}
+.main .showContract .bottom{
+	width:99%;
+	float:right;
+	height:164px;
+}
+.main .showContract .bottom div{
+	height:40px;
+	line-height:40px;
+	float:left;
+}
+
+.footer{
+
+}
+.footer button#btn-goback{
+	margin-right:100px;
+}
+.footer button#btn-show{
+	width:120px;
+}
+.footer button{
+	margin-right:20px;
+	float:right;
+	width:78px;
+	height:30px;
+	color:#eee;
+	background-color:#5695ff;
+	border:1px solid #333;
+}
+
+#table thead,.modal-header {
+	background-color: #364760;
+	color: #fff;
+	font-size: 14px;
+}
+
+.bs-checkbox {
+	vertical-align: middle !important;
+}
+.modal-body{
+	height:65px;
+}
+.modal-footer{
+	padding-right: 43px;
+}
+.row1 {
+	margin-bottom: 10px;
+}
+.row1 .form-control{
+	display: inline;
+	width: 82%;
+}
+.row1 label {
+	width:12%;
+}
